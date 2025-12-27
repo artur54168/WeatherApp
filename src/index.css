@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=BBH+Hegarty&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "BBH Hegarty", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.app {
+  min-height: 100vh;
+  display: grid;
+  background: #e2d4ff;
+}
+
+.navbar {
+  display: flex;
+  gap: 20px;
+  padding: 15px;
+  background: #2f4680;
+}
+
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}

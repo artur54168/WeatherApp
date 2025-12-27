@@ -1,0 +1,24 @@
+.city-block {
+    background: #fff;
+    border-radius: 12px;
+    padding: 10px 15px;
+    text-align: center;
+    min-width: 100px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.city-block:hover {
+    transform: translateY(-4px);
+}
+
+.city-name {
+    font-weight: bold;
+    margin: 0;
+}
+
+.city-temp {
+    margin: 0;
+    color: #333;
+}
