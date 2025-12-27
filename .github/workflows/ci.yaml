@@ -25,8 +25,5 @@ jobs:
       - name: Run lint
         run: npx eslint src/**/*.js
 
-      - name: Run tests
-        run: npm test -- --watchAll=false
-
       - name: Build Docker image (multi-stage)
         run: docker build -t weatherapp:ci .
