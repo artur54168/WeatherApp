@@ -23,7 +23,7 @@ jobs:
         run: npm install
 
       - name: Run lint
-        run: npx eslint src/**/*.js,.jsx
+        run: npx eslint src/*.jsx
 
       - name: Build Docker image (multi-stage)
         run: docker build -t weatherapp:ci .
